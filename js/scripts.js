@@ -68,6 +68,7 @@ function draw_graph() {
 				text: 'kWh/day'
 			},
 			min: 0,
+			tickAmount: 6,
 			forceNiceScale: true
 		},
 		xaxis: {
