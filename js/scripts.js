@@ -53,8 +53,7 @@ function draw_graph() {
 			type: 'area',
 			zoom: {
 				type: 'x',
-				enabled: true,
-				autoScaleYaxis: true
+				enabled: true
 			}
 		},
 		dataLabels: {
