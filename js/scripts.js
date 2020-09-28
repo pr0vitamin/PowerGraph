@@ -64,8 +64,8 @@ function draw_graph() {
 		},
 		yaxis: {
 			title: {
-				text: 'kWh'
-			}
+				text: 'kWh/day'
+			},
 		},
 		xaxis: {
 			type: 'datetime'
