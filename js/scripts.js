@@ -53,6 +53,7 @@ function draw_graph() {
 			type: 'area',
 			zoom: {
 				type: 'x',
+				autoScaleYaxis: true,
 				enabled: true
 			}
 		},
@@ -66,6 +67,8 @@ function draw_graph() {
 			title: {
 				text: 'kWh/day'
 			},
+			min: 0,
+			forceNiceScale: true
 		},
 		xaxis: {
 			type: 'datetime'
